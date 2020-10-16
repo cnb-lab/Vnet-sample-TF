@@ -38,7 +38,7 @@ variable "location" {
 
 variable "vnetName" {
 	type        = string
-	default     = "VNet1"
+	default     = "VNet1-Ninja9"
 	description = "VNet name."
 }
 
