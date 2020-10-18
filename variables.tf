@@ -56,7 +56,7 @@ variable "subnet1Prefix" {
 
 variable "subnet1Name" {
 	type        = string
-	Ninja-default     = "Subnet1"
+	default     = "Subnet1"
 	description = "Subnet 1 Name."
 }
 
