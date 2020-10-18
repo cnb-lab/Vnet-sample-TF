@@ -71,3 +71,15 @@ variable "subnet2Name" {
 	default 		= "Subnet2"
 	description = "Ninja-Subnet 2 Name."
 }
+
+variable "subnet3Prefix" {
+	type    		= string
+	default 		= "10.1.2.0/24"
+	description = "Subnet 3 Prefix."
+}
+
+variable "subnet3Name" {
+	type    		= string
+	default 		= "TFSubnet3"
+	description = "TF-Ninja-Subnet 3 Name."
+}
