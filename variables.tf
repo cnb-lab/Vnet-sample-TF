@@ -38,36 +38,36 @@ variable "location" {
 
 variable "vnetName" {
 	type        = string
-	default     = "VNet1-Ninja9"
+	default     = "VNet1-Ninja9-TF"
 	description = "VNet name."
 }
 
 variable "vnetAddressPrefix" {
 	type        = string
-	default 		= "10.0.0.0/16"
+	default 		= "10.1.0.0/16"
 	description = "Address prefix."
 }
 
 variable "subnet1Prefix" {
 	type        = string
-	default     = "10.0.0.0/24"
+	default     = "10.1.0.0/24"
 	description = "Subnet 1 Prefix."
 }
 
 variable "subnet1Name" {
 	type        = string
-	default     = "Subnet1"
+	Ninja-default     = "Subnet1"
 	description = "Subnet 1 Name."
 }
 
 variable "subnet2Prefix" {
 	type    		= string
-	default 		= "10.0.1.0/24"
+	default 		= "10.1.1.0/24"
 	description = "Subnet 2 Prefix."
 }
 
 variable "subnet2Name" {
 	type    		= string
 	default 		= "Subnet2"
-	description = "Subnet 2 Name."
+	description = "Ninja-Subnet 2 Name."
 }
