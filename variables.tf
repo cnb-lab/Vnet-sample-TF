@@ -32,7 +32,7 @@ variable "resourceGroupName" {
 
 variable "location" {
 	type        = string
-	default     = "Australia Central2"
+	default     = "Australia SouthEast"
 	description = "Location for all resources"
 }
 
